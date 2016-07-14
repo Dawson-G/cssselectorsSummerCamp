@@ -1,0 +1,38 @@
+/* elements */
+li {
+    
+}
+
+/* Classes */
+.hello {
+    
+}
+
+/* Ids */
+#name {
+    
+}
+
+/* Star */
+* {
+    border: 1px solid lightgrey;
+}
+
+/* Decendent Selectors */
+li a {
+    color: red;
+}
+
+/* Adjacent Selectors */
+h4 + ul {
+    border: 4px solid red;
+}
+
+/* Attribiute Selectors */
+a[href="http://www.google.com"], a[href="http://www.facebook.com"] {
+    background: blue;
+}
+
+input[type="checkbox"] {
+    background: blue;
+}
